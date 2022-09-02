@@ -3,8 +3,8 @@ export default function Link() {
 		<div className="link-to-resume">
 			<p>
 				Link to this resume:
-				<a href="https://sreeram-resume.herokuapp.com/">
-					sreeram-resume.herokuapp.com
+				<a href="https://sreeram-resume.netlify.app/">
+					sreeram-resume.netlify.app
 				</a>
 			</p>
 		</div>
