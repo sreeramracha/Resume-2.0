@@ -113,10 +113,9 @@ i{
 
 
 @media (max-width: 1000px) {
-  .academic-skills-section, .projects-social-section{
-      flex-direction: column;
-  }
-
+  	.academic-skills-section, .projects-social-section{
+		flex-direction: column;
+  	}
 }
 
 .academic{

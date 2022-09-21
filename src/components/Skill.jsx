@@ -13,9 +13,9 @@ export default function Skill() {
 		"Bootstrap",
 		"JavaScript",
 		"jQuery",
-		"Node",
-		"Express",
-		"React",
+		"Node.js",
+		"Express.js",
+		"React.js",
 	];
 	const database = ["MySQL", "MongoDB", "Mongoose"];
 	const speakingLanguages = ["Telugu", "English", "Hindi"];
