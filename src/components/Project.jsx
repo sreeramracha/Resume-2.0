@@ -8,6 +8,17 @@ export default function Project() {
 			</div>
 
 			<ProjectInfo
+				name="Chat App"
+				description="An app, which is similar to Whatsapp theme allows users to communicate with each other."
+				exploreGame="https://chatappwhatsappclone.netlify.app/"
+				exploreCode="https://github.com/sreeramracha/Whatsapp-Clone-Frontend"
+				gameIcon="fa-solid fa-comments"
+				codeIcon="fa-solid fa-file-signature"
+			/>
+
+			<hr />
+
+			<ProjectInfo
 				name="Simon Game"
 				description="The game creates a series of tones and lights and requires a
 					user to repeat the sequence. If the user succeeds, the
@@ -17,18 +28,6 @@ export default function Project() {
 				exploreGame="https://sreeramracha.github.io/simon-game/"
 				exploreCode="https://github.com/sreeramracha/simon-game"
 				gameIcon="fa-solid fa-puzzle-piece"
-				codeIcon="fa-solid fa-file-signature"
-			/>
-
-			<hr />
-
-			<ProjectInfo
-				name="Subscription"
-				description="A webpage where one can subscribe to my mailchimp
-						account."
-				exploreGame="https://stormy-headland-34030.herokuapp.com/"
-				exploreCode="https://github.com/sreeramracha/subscription"
-				gameIcon="fa-solid fa-newspaper"
 				codeIcon="fa-solid fa-file-signature"
 			/>
 
