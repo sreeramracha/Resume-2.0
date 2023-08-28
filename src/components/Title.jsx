@@ -8,7 +8,7 @@ export default function Title() {
 			</div>
 			<div className="profile-description">
 				<h1 className="title">Racha Laxmi Sreeram</h1>
-				<p className="sub-title">Programmer</p>
+				{/* <p className="sub-title">Programmer</p> */}
 			</div>
 		</div>
 	);

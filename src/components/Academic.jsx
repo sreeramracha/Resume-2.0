@@ -1,8 +1,24 @@
 import AcademicInfo from "./AcademicInfo";
+import ExperienceInfo from "./ExperienceInfo";
 
 export default function Academic() {
 	return (
 		<div className="academic">
+			<div className="headings-title">
+				<h1>Experience</h1>
+			</div>
+
+			<ExperienceInfo
+				qualification="Cognizant"
+				year="(October 2022-Present)"
+				description1="Investigated application issues, identified causes and initiated troubleshooting methods for immediate resolution."
+				description2="Written a python code for extracting order details from xml files for verification purpose from live locations."
+				description3="Performed data analysis on large datasets using SQL queries and stored procedures."
+				description4="Using software and computer programs to compile and categorize data for daily use."
+			/>
+
+			{/* <hr /> */}
+
 			<div className="headings-title">
 				<h1>Academic Qualifications</h1>
 			</div>

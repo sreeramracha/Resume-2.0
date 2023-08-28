@@ -1,7 +1,8 @@
 import SkillInfo from "./SkillInfo";
 
 export default function Skill() {
-	const programmingLanguages = ["Python"];
+	const bigDataTechnologies = ["Apache Hadoop", "PySpark"];
+	const programmingLanguages = ["Python", "Scala"];
 	const computerScienceConcepts = [
 		"Data Structures",
 		"Algorithms",
@@ -18,13 +19,20 @@ export default function Skill() {
 		"React.js",
 	];
 	const database = ["MySQL", "MongoDB", "Mongoose"];
-	const speakingLanguages = ["Telugu", "English", "Hindi"];
+	const speakingLanguages = ["English", "Telugu", "Hindi"];
 
 	return (
 		<div className="skills">
 			<div className="headings-title">
 				<h1>Skills</h1>
 			</div>
+
+			<SkillInfo
+				name="BigData Technologies"
+				skill={bigDataTechnologies}
+			/>
+
+			<hr />
 
 			<SkillInfo
 				name="Programming Languages"
