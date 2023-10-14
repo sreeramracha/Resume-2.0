@@ -9,9 +9,9 @@ export default function Social() {
 
 			<SocialInfo
 				name="LinkedIn"
-				link="https://www.linkedin.com/in/sreeram-racha-200138174/"
+				link="https://www.linkedin.com/in/sreeramracha/"
 				icon="fa-brands fa-linkedin fa-2x"
-				userlink="https://www.linkedin.com/in/sreeram-racha-200138174/"
+				userlink="https://www.linkedin.com/in/sreeramracha/"
 				username="Sreeram Racha"
 			/>
 
