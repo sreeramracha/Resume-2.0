@@ -2,7 +2,7 @@ import SkillInfo from "./SkillInfo";
 
 export default function Skill() {
 	const bigDataTechnologies = ["Apache Hadoop", "PySpark"];
-	const programmingLanguages = ["Python", "Scala"];
+	const programmingLanguages = ["Python", "Scala", "Java", "C#"];
 	const computerScienceConcepts = [
 		"Data Structures",
 		"Algorithms",
