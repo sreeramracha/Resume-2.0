@@ -11,8 +11,8 @@ export default function App() {
 		<div>
 			<Title />
 			<div className="academic-skills-section">
-				<Academic />
 				<Skill />
+				<Academic />
 			</div>
 			<div class="projects-social-section">
 				<Project />

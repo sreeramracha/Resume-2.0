@@ -4,14 +4,14 @@ export default function Project() {
 	return (
 		<div className="projects">
 			<div className="headings-title">
-				<h1>Projects</h1>
+				<h1>External Projects</h1>
 			</div>
 
 			<ProjectInfo
 				name="Chat App"
 				description="An app, which is similar to Whatsapp theme allows users to communicate with each other."
-				exploreGame="https://chatappwhatsappclone.netlify.app/"
-				exploreCode="https://github.com/sreeramracha/Whatsapp-Clone-Frontend"
+				exploreGame="https://ws-chatapp-clone.netlify.app/"
+				exploreCode="https://github.com/sreeramracha/ChatApp-Clone"
 				gameIcon="fa-solid fa-comments"
 				codeIcon="fa-solid fa-file-signature"
 			/>

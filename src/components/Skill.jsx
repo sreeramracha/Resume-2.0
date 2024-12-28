@@ -1,38 +1,25 @@
 import SkillInfo from "./SkillInfo";
+import {
+	programmingLanguages,
+	computerScienceConcepts,
+	webTechnologies,
+	database,
+	speakingLanguages,
+} from "./Items.jsx";
 
 export default function Skill() {
-	const bigDataTechnologies = ["Apache Hadoop", "PySpark"];
-	const programmingLanguages = ["Python", "Scala", "Java", "C#"];
-	const computerScienceConcepts = [
-		"Data Structures",
-		"Algorithms",
-		"Object Oriented Design",
-	];
-	const webTechnologies = [
-		"HTML",
-		"CSS",
-		"Bootstrap",
-		"JavaScript",
-		"jQuery",
-		"Node.js",
-		"Express.js",
-		"React.js",
-	];
-	const database = ["MySQL", "MongoDB", "Mongoose"];
-	const speakingLanguages = ["English", "Telugu", "Hindi"];
-
 	return (
 		<div className="skills">
 			<div className="headings-title">
 				<h1>Skills</h1>
 			</div>
 
-			<SkillInfo
+			{/* <SkillInfo
 				name="BigData Technologies"
 				skill={bigDataTechnologies}
 			/>
 
-			<hr />
+			<hr /> */}
 
 			<SkillInfo
 				name="Programming Languages"

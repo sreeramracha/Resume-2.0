@@ -11,10 +11,14 @@ export default function Academic() {
 			<ExperienceInfo
 				qualification="Cognizant"
 				year="(October 2022-Present)"
-				description1="Investigated application issues, identified causes and initiated troubleshooting methods for immediate resolution."
-				description2="Developed a python code for extracting order details from xml files for verification purpose from live locations."
-				description3="Performed data analysis on large datasets using SQL queries and stored procedures."
-				description4="Using software and computer programs to compile and categorize data for daily use."
+				description1="Designing, developing tools and applications for deployment and monitoring."
+				description2="Deploying changes in DEV, FIT, PREPROD and PROD servers as per the client requirement."
+				description3="Working with SQL Developer to access databse based on the environment."
+				description4="Responsible for debugging and solving issues for incidents based on end-user requirements as well as during testing phase."
+				// description1="Investigated application issues, identified causes and initiated troubleshooting methods for immediate resolution."
+				// description2="Developed a python code for extracting order details from xml files for verification purpose from live locations."
+				// description3="Performed data analysis on large datasets using SQL queries and stored procedures."
+				// description4="Using software and computer programs to compile and categorize data for daily use."
 			/>
 
 			{/* <hr /> */}

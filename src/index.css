@@ -9,258 +9,262 @@ https://i.ytimg.com/vi/E6gHF6un0XU/maxresdefault.jpg
 https://i.pinimg.com/originals/24/7c/0e/247c0ea33da7b7f893a01e3955928dd0.png
 */
 
-:root{
-  --front: white;
-  --back: #eef2fd;
-  --title: #ff4320;
-  --text: black;
+:root {
+	--front: white;
+	--back: #eef2fd;
+	--title: #ff4320;
+	--text: black;
 }
 
-.dark-theme{
-  --front: #1a1957;
-  --back: #0e0d39;
-  --title: #f20512;
-  --text: white;
+.dark-theme {
+	--front: #1a1957;
+	--back: #0e0d39;
+	--title: #f20512;
+	--text: white;
 }
-
-
 
 /* Common Tags */
 
-*{
-  font-family: 'Overpass', sans-serif;
-  transition-timing-function: ease-in;
-  transition-duration: 0.5s;
-  color: var(--text);
+* {
+	font-family: "Overpass", sans-serif;
+	transition-timing-function: ease-in;
+	transition-duration: 0.5s;
+	color: var(--text);
 }
 
-p, h1, h5, div{
-  margin: 0;
+p,
+h1,
+h5,
+div {
+	margin: 0;
 }
 
-body{
-  background-color: var(--back);
+body {
+	background-color: var(--back);
 }
 
-hr{
-  margin-top: 20px;
-  margin-bottom: 20px;
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-a{
-  text-decoration: none;
-  color: black;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-i{
-  margin: 5px;
+i {
+	margin: 5px;
 }
 
 /* Title Section */
 
-.title-section{
-  margin: 5% 10%;
-  background-color: var(--front);
-  font-family: 'Ubuntu', sans-serif;
-  display: flex;
-  align-items: center;
+.title-section {
+	margin: 5% 10%;
+	background-color: var(--front);
+	font-family: "Ubuntu", sans-serif;
+	display: flex;
+	align-items: center;
 }
 
-.dp{
-  height: 150px;
-  border-radius: 50%;
+.dp {
+	height: 150px;
+	border-radius: 50%;
 }
 
-.profile-picture{
-  flex: 1;
-  text-align: center;
+.profile-picture {
+	flex: 1;
+	text-align: center;
 }
 
-.profile-description{
-  flex: 2;
+.profile-description {
+	flex: 2;
 }
 
 .title {
-  font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
-.sub-title{
-  font-size: 1.5rem;
+.sub-title {
+	font-size: 1.5rem;
 }
 
 /* About Section */
 
-.academic-skills-section, .projects-social-section{
-  margin: 5% 10% 1%;
-  /* display: grid;
+.academic-skills-section,
+.projects-social-section {
+	margin: 5% 10% 1%;
+	/* display: grid;
   grid-template-columns: 1fr 1fr; */
-  display: flex;
-  /* flex-wrap: wrap; */
-  row-gap: 20px;
-  column-gap: 20px;
+	display: flex;
+	/* flex-wrap: wrap; */
+	row-gap: 20px;
+	column-gap: 20px;
 }
 
-.projects-social-section{
-  margin: 1% 10% 5%;
-  /* display: grid;
+.projects-social-section {
+	margin: 1% 10% 5%;
+	/* display: grid;
   grid-template-columns: 1fr 1fr; */
-  display: flex;
-  /* flex-wrap: wrap; */
-  row-gap: 20px;
-  column-gap: 20px;
+	display: flex;
+	/* flex-wrap: wrap; */
+	row-gap: 20px;
+	column-gap: 20px;
 }
-
-
 
 @media (max-width: 1000px) {
-  	.academic-skills-section, .projects-social-section{
+	.academic-skills-section,
+	.projects-social-section {
 		flex-direction: column;
-  	}
+	}
 }
 
-.academic{
-  flex: 1;
+.academic {
+	flex: 2;
 }
 
-.skills{
-  flex: 2;
+.skills {
+	flex: 1;
 }
 
-.projects{
-  flex: 2;
+.projects {
+	flex: 2;
 }
 
-.social-profiles{
-  flex: 1;
+.social-profiles {
+	flex: 1;
 }
 
 @media (max-width: 1450px) {
-  .skills{
-      flex: 1;
-  }
-  
-  .projects{
-      flex: 1;
-  }
+	.skills {
+		flex: 1;
+	}
+
+	.projects {
+		flex: 1;
+	}
 }
 
-.academic, .skills, .projects, .social-profiles{
-  background-color: var(--front);
-  padding: 20px;
-  /* grid-area: content; */
+.academic,
+.skills,
+.projects,
+.social-profiles {
+	background-color: var(--front);
+	padding: 20px;
+	/* grid-area: content; */
 }
 
-.headings-title{
-  background-color: var(--title);
-  border-radius: 5px;
-  padding: 5px 10px;
-  font-size: medium;
-  margin-bottom: 10px;
+.headings-title {
+	background-color: var(--title);
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: medium;
+	margin-bottom: 10px;
 }
 
-.headings-title h1{
-  color: white;
+.headings-title h1 {
+	color: white;
 }
 
-.headings-subtitle{
-  margin: 5px;
-  font-size: x-large;
-  display: flex;
-  justify-content: space-between;
+.headings-subtitle {
+	margin: 5px;
+	font-size: x-large;
+	display: flex;
+	justify-content: space-between;
 }
 
-.academic-description, .description{
-  margin: 5px;
-  font-size: larger;
-  line-height: 1.6;
+.academic-description,
+.description {
+	margin: 5px;
+	font-size: larger;
+	line-height: 1.6;
 }
 
-.academic-description p{
-  margin: 10px;
+.academic-description p {
+	margin: 10px;
 }
 
-.description{
-  display: flex; 
-  flex-wrap: wrap;
+.description {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.items{
-  background-color: var(--title);
-  margin: 5px;
-  padding: 7px;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
+.items {
+	background-color: var(--title);
+	margin: 5px;
+	padding: 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
 }
 
-.items p{
-  color: white;
+.items p {
+	color: white;
 }
-
 
 /* Projects Block */
-.explore{
-  display: flex;
+.explore {
+	display: flex;
 }
 
-.explore p, .explore i{
-  color: white;
+.explore p,
+.explore i {
+	color: white;
 }
 
-.description.project{
-  display: flex;
-  flex-direction: column;
+.description.project {
+	display: flex;
+	flex-direction: column;
 }
 
 /* Social Profile Block */
-.social-profile-description{
-  display: flex;
-  align-items: center;
-  font-size: large;
+.social-profile-description {
+	display: flex;
+	align-items: center;
+	font-size: large;
 }
 
 /* Icon colors */
 
-.fa-linkedin{
-  color: #0a66c2;
-  background-color: transparent;
+.fa-linkedin {
+	color: #0a66c2;
+	background-color: transparent;
 }
 
-.fa-hackerrank{
-  color: #2ec866;
-  background-color: transparent;
+.fa-hackerrank {
+	color: #2ec866;
+	background-color: transparent;
 }
-.fa-github{
-  color: var(--text);
-  background-color: transparent;
+.fa-github {
+	color: var(--text);
+	background-color: transparent;
 }
-.fa-envelope{
-  background-color:transparent;
+.fa-envelope {
+	background-color: transparent;
 }
-.fa-phone{
-  background-color: transparent;
+.fa-phone {
+	background-color: transparent;
 }
-
 
 /* Theme CHanger */
 
-.theme-changer{
-  position: fixed;
-  top: 2px;
-  right: 2px;
-  cursor: pointer;
+.theme-changer {
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	cursor: pointer;
 }
 
 /* Link to resume */
-.link-to-resume{
-  margin: 5% 10%;
-  font-size: large;
+.link-to-resume {
+	margin: 5% 10%;
+	font-size: large;
 }
 
-.link-to-resume a{
-  color: #ff4320;
+.link-to-resume a {
+	color: #ff4320;
 }
 
-.link-to-resume a:hover{
-  color: #f20512;
+.link-to-resume a:hover {
+	color: #f20512;
 }
