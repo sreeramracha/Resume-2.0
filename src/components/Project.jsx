@@ -23,7 +23,7 @@ export default function Project() {
 				description="Developed a dynamic e-commerce website allowing users to browse and add various items to their cart, displaying selected items and total price. Integrated a robust admin panel for performing CRUD operations to manage inventory efficiently."
 				exploreGame="https://tejaswini-sale-corp-bill-generator.netlify.app/"
 				exploreCode="https://github.com/sreeramracha/bill-generator"
-				gameIcon=""
+				gameIcon="fa-solid fa-cart-shopping"
 				codeIcon="fa-solid fa-file-signature"
 			/>
 			<hr />
