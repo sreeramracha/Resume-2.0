@@ -9,13 +9,23 @@ export default function Project() {
 
 			<ProjectInfo
 				name="Chat App"
-				description="An app, which is similar to Whatsapp theme allows users to communicate with each other."
+				description="Developed a user-friendly chat application enabling real-time messaging and seamless communication."
 				exploreGame="https://ws-chatapp-clone.netlify.app/"
 				exploreCode="https://github.com/sreeramracha/ChatApp-Clone"
 				gameIcon="fa-solid fa-comments"
 				codeIcon="fa-solid fa-file-signature"
 			/>
 
+			<hr />
+
+			<ProjectInfo
+				name="Flexi Cart"
+				description="Developed a dynamic e-commerce website allowing users to browse and add various items to their cart, displaying selected items and total price. Integrated a robust admin panel for performing CRUD operations to manage inventory efficiently."
+				exploreGame="https://tejaswini-sale-corp-bill-generator.netlify.app/"
+				exploreCode="https://github.com/sreeramracha/bill-generator"
+				gameIcon=""
+				codeIcon="fa-solid fa-file-signature"
+			/>
 			<hr />
 
 			<ProjectInfo
